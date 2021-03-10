@@ -37,6 +37,19 @@ Author: Piotr Zioło
 
 8. Click on the first cell and hit shift+enter. The first cell should get executed properly. Do the same for all other cells (you can continuously hit shift+enter until you execute all cells).
 
+	The most common error you may encounter is "ImportError: No module named...". In such a case:
+	
+	- copy the package name,
+	
+	- close the tabs with Jupyter and in Git Bash where you started Jupyter Notebook click ctrl+c,
+	
+	- run the following command:
+			pip install package_name
+			
+	- the package should get installed successfully,
+
+	- after that you can open Jupyter Notebook again and test if it works now.
+
 
 9. After you finished a piece of code in your repository, run the following commands in Git Bash (in the repository folder):
 
