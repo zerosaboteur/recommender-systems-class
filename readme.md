@@ -36,7 +36,7 @@ git push
 The first command adds all changes and new files for the next commit. The second command commits your changes (it's a kind of a checkpoint/save to which you can later return if need be). The third one sends your commit to GitHub (or any remote repository, in general).
 
 9. (Optional) Set up your Git Bash to make it look as below:
-![Git Bash](img/git_bash.jpg)
+![Git Bash](img/git_bash.png)
 
 Copy .bash_profile and git-prompt.sh files from the git_configuration folder from this repository to your user folder (tested on Windows 10; on other systems they may need to land somewhere else).
 
